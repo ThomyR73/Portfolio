@@ -1,0 +1,42 @@
+$black: #222831;
+$grey: #393e46;
+$yellow: #ffd369;
+$white: #eeeeee;
+
+%title {
+  font-family: "Comfortaa";
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+%button {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: $black;
+  padding: 5px 15px;
+  background-color: $yellow;
+  border: 1px solid $black;
+  border-radius: 20px;
+  margin-top: 5px;
+  box-shadow: 2px 2px 5px $grey;
+  transition: all 100ms;
+}
+%button:hover {
+  background-color: $black;
+  border: 1px solid $grey;
+  color: $yellow;
+}
+%button:active {
+  box-shadow: 2px 2px 5px $grey, inset 2px 2px 6px $yellow;
+}
+@media (min-width: 768px) {
+  %title {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  %title {
+    font-size: 40px;
+  }
+}

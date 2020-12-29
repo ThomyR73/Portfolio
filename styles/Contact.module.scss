@@ -1,0 +1,87 @@
+@import "vars.module";
+
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px 10px;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(0.45turn, $grey, $grey, $black);
+  h3 {
+    @extend %title;
+    color: $white;
+  }
+  form {
+    width: 90%;
+    label {
+      color: $white;
+      display: block;
+      margin: 10px 0;
+      font-family: "Montserrat";
+      font-weight: 700;
+      textarea {
+        resize: none;
+      }
+      textarea,
+      input {
+        width: calc(100% - 10px);
+        background-color: $white;
+        border: none;
+        padding: 5px 5px;
+        border-radius: 3px;
+        margin: 5px 0;
+        font-family: "Montserrat";
+        font-size: 16px;
+        color: $black;
+      }
+      textarea:focus,
+      input:focus {
+        box-shadow: inset 2px 2px 2px $black;
+      }
+    }
+    span {
+      padding: 5px 10px;
+      border-radius: 3px;
+      font-family: "Montserrat";
+      display: block;
+      background-color: #f8d7da;
+      color: #721c24;
+      margin: -7px 0 10px 0;
+    }
+    .button {
+      @extend %button;
+    }
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      padding: 5px 10px;
+      border-radius: 3px;
+      p {
+        font-family: "Montserrat";
+        font-size: 15px;
+      }
+      svg {
+        cursor: pointer;
+      }
+    }
+    .error {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+    .success {
+      color: #155724;
+      background-color: #d4edda;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact {
+    form {
+      width: 800px;
+    }
+  }
+}

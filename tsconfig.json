@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "pages/CRMGraphQL.jsx", "components/AboutMe.jsx", "components/Contact.jsx", "components/Footer.jsx", "components/TechStack.jsx", "components/Projects.jsx", "components/MetaTags.jsx", "components/Intro.jsx", "pages/index.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

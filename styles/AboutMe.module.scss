@@ -1,0 +1,228 @@
+@import "vars.module";
+
+.aboutMe {
+  display: flex;
+  padding: 50px 10px;
+  min-height: calc(100vh - 80px);
+  background: linear-gradient(0.45turn, $grey, $grey, $black);
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    @extend %title;
+    color: $white;
+  }
+  p {
+    color: $white;
+    font-family: "Montserrat";
+    width: 200px;
+    margin-top: 15px;
+  }
+}
+
+.image {
+  border-radius: 5px;
+}
+
+.fromLeft,
+.fromRight {
+  position: absolute;
+  transition: all 300ms;
+}
+
+.ts {
+  left: 15px;
+  margin-top: 30vh;
+  transform: rotate(20deg);
+  img {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.react {
+  left: 19px;
+  margin-top: 70vh;
+  img {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.js {
+  right: 10px;
+  margin-top: 36vh;
+  transform: rotate(-15deg);
+  img {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.gql {
+  right: 25px;
+  margin-top: 75vh;
+  transform: rotate(-40deg);
+  img {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.css3 {
+  display: none;
+}
+
+.html5 {
+  display: none;
+}
+
+.fromLeft {
+  animation: fromLeft linear 500ms;
+}
+
+@keyframes fromLeft {
+  0% {
+    transform: translateX(-50px) translateY(30px);
+  }
+  100% {
+    transform: translateX(0px) rotate(30deg) translateY(0px);
+  }
+}
+
+.fromRight {
+  animation: fromRight linear 500ms;
+}
+
+@keyframes fromRight {
+  0% {
+    transform: translateX(50px) translateY(30px);
+  }
+  100% {
+    transform: translateX(0px) rotate(-30deg) translateY(0px);
+  }
+}
+
+.lazy {
+  position: absolute;
+  width: calc(100vw - 20px);
+}
+
+@media (min-width: 768px) {
+  .data {
+    min-height: calc(100vh - 300px);
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    p {
+      width: 400px;
+    }
+  }
+  .ts {
+    margin-top: 10vh;
+    left: 20vw;
+  }
+
+  .react {
+    left: 12vw;
+  }
+
+  .js {
+    right: 5vw;
+    margin-top: 19vh;
+  }
+
+  .gql {
+    right: 25vw;
+    margin-top: 55vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .css3 {
+    display: block;
+    margin-top: 10vh;
+    right: 30vw;
+    transform: rotate(15deg);
+    img {
+      height: 24px;
+      width: 24px;
+    }
+  }
+  .html5 {
+    margin-top: 30vh;
+    left: 3vw;
+    display: block;
+    transform: rotate(-15deg);
+
+    img {
+      height: 24px;
+      width: 24px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .data {
+    min-height: calc(100vh - 300px);
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    p {
+      width: 800px;
+    }
+  }
+  .ts {
+    margin-top: 15vh;
+    left: 20vw;
+    img {
+      height: 32px;
+      width: 32px;
+    }
+  }
+
+  .react {
+    left: 25vw;
+    img {
+      height: 32px;
+      width: 32px;
+    }
+  }
+
+  .js {
+    right: 25vw;
+    margin-top: 15vh;
+    img {
+      height: 32px;
+      width: 32px;
+    }
+  }
+
+  .gql {
+    right: 25vw;
+    margin-top: 55vh;
+    img {
+      height: 32px;
+      width: 32px;
+    }
+  }
+
+  .css3 {
+    margin-top: 30vh;
+    right: 3vw;
+    img {
+      height: 32px;
+      width: 32px;
+    }
+  }
+  .html5 {
+    margin-top: 60vh;
+    img {
+      height: 32px;
+      width: 32px;
+    }
+  }
+}

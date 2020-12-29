@@ -1,0 +1,30 @@
+@import "vars.module";
+.projects {
+  display: flex;
+  padding: 50px 10px 10px;
+  min-height: 1166px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(0.45turn, $white, #ccc);
+  h3 {
+    @extend %title;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .projects {
+    min-height: 1391px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .projects {
+    min-height: 1699px;
+  }
+  .grid {
+    width: 1200px;
+  }
+}

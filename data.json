@@ -1,0 +1,123 @@
+{
+  "projects":{
+  "p1": {
+    "title": "Buscador de Personajes",
+    "subtitle": "App movil con React-native",
+    "thumbnail": "/mockup.png",
+    "type": "mobile",
+    "images": [
+      {
+        "type": "mobile",
+        "title": "placeholder",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel orci sit amet velit porttitor dapibus ac ac urna. Quisque vitae est magna. Donec nec nulla eu nisi fermentum imperdiet ac convallis nunc. Fusce dictum mattis efficitur. Nam in vulputate odio. Ut rutrum elit at accumsan sagittis. Maecenas sit amet. ",
+        "img": "/mockup.png"
+      },
+      {
+        "type": "mobile",
+        "title": "placeholder",
+        "img": "/mockup.png"
+      },
+      {
+        "type": "mobile",
+        "title": "placeholder",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel orci sit amet velit porttitor dapibus ac ac urna. Quisque vitae est magna. Donec nec nulla eu nisi fermentum imperdiet ac convallis nunc. Fusce dictum mattis efficitur. Nam in vulputate odio. Ut rutrum elit at accumsan sagittis. Maecenas sit amet. ",
+        "img": "/mockup.png"
+      },
+      {
+        "type": "mobile",
+        "title": "placeholder",
+        "img": "/mockup.png"
+      }
+    ]
+  },
+  "p2": {
+    "title": "Buscador de Personajes",
+    "subtitle": "App movil con React-native",
+    "thumbnail": "/mockup2.png",
+    "type": "desktop",
+    "images": [
+      {
+        "type": "desktop",
+        "title": "placeholder",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel orci sit amet velit porttitor dapibus ac ac urna. Quisque vitae est magna. Donec nec nulla eu nisi fermentum imperdiet ac convallis nunc. Fusce dictum mattis efficitur. Nam in vulputate odio. Ut rutrum elit at accumsan sagittis. Maecenas sit amet. ",
+        "img": "/mockup2.png"
+      },
+      {
+        "type": "desktop",
+        "title": "placeholder",
+        "img": "/mockup2.png"
+      },
+      {
+        "type": "desktop",
+        "title": "placeholder",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel orci sit amet velit porttitor dapibus ac ac urna. Quisque vitae est magna. Donec nec nulla eu nisi fermentum imperdiet ac convallis nunc. Fusce dictum mattis efficitur. Nam in vulputate odio. Ut rutrum elit at accumsan sagittis. Maecenas sit amet. ",
+        "img": "/mockup2.png"
+      },
+      {
+        "type": "desktop",
+        "title": "placeholder",
+        "img": "/mockup2.png"
+      }
+    ]
+  },
+  "p3": {
+    "title": "Buscador de Personajes",
+    "subtitle": "App movil con React-native",
+    "thumbnail": "/mockup2.png",
+    "type": "desktop",
+    "images": [
+      {
+        "type": "desktop",
+        "title": "placeholder",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel orci sit amet velit porttitor dapibus ac ac urna. Quisque vitae est magna. Donec nec nulla eu nisi fermentum imperdiet ac convallis nunc. Fusce dictum mattis efficitur. Nam in vulputate odio. Ut rutrum elit at accumsan sagittis. Maecenas sit amet. ",
+        "img": "/mockup2.png"
+      },
+      {
+        "type": "desktop",
+        "title": "placeholder",
+        "img": "/mockup2.png"
+      },
+      {
+        "type": "mobile",
+        "title": "placeholder",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel orci sit amet velit porttitor dapibus ac ac urna. Quisque vitae est magna. Donec nec nulla eu nisi fermentum imperdiet ac convallis nunc. Fusce dictum mattis efficitur. Nam in vulputate odio. Ut rutrum elit at accumsan sagittis. Maecenas sit amet. ",
+        "img": "/mockup.png"
+      },
+      {
+        "type": "mobile",
+        "title": "placeholder",
+        "img": "/mockup.png"
+      }
+    ]
+  },
+  "p4": {
+    "title": "Buscador de Personajes",
+    "subtitle": "App movil con React-native",
+    "thumbnail": "/mockup2.png",
+    "type": "desktop",
+    "images": [
+      {
+        "type": "desktop",
+        "title": "placeholder",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel orci sit amet velit porttitor dapibus ac ac urna. Quisque vitae est magna. Donec nec nulla eu nisi fermentum imperdiet ac convallis nunc. Fusce dictum mattis efficitur. Nam in vulputate odio. Ut rutrum elit at accumsan sagittis. Maecenas sit amet. ",
+        "img": "/mockup2.png"
+      },
+      {
+        "type": "desktop",
+        "title": "placeholder",
+        "img": "/mockup2.png"
+      },
+      {
+        "type": "mobile",
+        "title": "placeholder",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel orci sit amet velit porttitor dapibus ac ac urna. Quisque vitae est magna. Donec nec nulla eu nisi fermentum imperdiet ac convallis nunc. Fusce dictum mattis efficitur. Nam in vulputate odio. Ut rutrum elit at accumsan sagittis. Maecenas sit amet. ",
+        "img": "/mockup.png"
+      },
+      {
+        "type": "mobile",
+        "title": "placeholder",
+        "img": "/mockup.png"
+      }
+    ]
+  }
+}}
