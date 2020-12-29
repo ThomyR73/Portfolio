@@ -16,13 +16,13 @@
 }
 
 .mobile {
-  width: 90px;
-  height: 190px;
+  width: 108px;
+  height: 228px;
 }
 
 .desktop {
-  width: 180px;
-  height: 110px;
+  width: 216px;
+  height: 132px;
 }
 
 .button {
@@ -45,7 +45,7 @@
   a {
     @extend %button;
     text-decoration: none;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 }
 
@@ -62,13 +62,13 @@
 
 @media (min-width: 768px) {
   .mobile {
-    width: 138px;
-    height: 285px;
+    width: 166px;
+    height: 342px;
   }
 
   .desktop {
-    width: 270px;
-    height: 165px;
+    width: 324px;
+    height: 198px;
   }
 }
 
@@ -126,11 +126,11 @@
     }
   }
   .mobile {
-    width: 180px;
-    height: 380px;
+    width: 216px;
+    height: 456px;
   }
   .desktop {
-    width: 360px;
-    height: 220px;
+    width: 432px;
+    height: 264px;
   }
 }

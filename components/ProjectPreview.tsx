@@ -34,7 +34,7 @@ const ProjectPreview: React.FunctionComponent<ProjectPreviewProps> = ({
       <div className={`${showData ? styles.preview : ""}`}>
         <h4>{title}</h4>
         <p>{subtitle}</p>
-        <LazyLoad>
+        <LazyLoad once offset={100}>
           <img
             src={thumbnail}
             alt={title}

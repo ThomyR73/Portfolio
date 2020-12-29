@@ -31,7 +31,7 @@ const AboutMe = () => {
         </p>
       </div>
       <div className={styles.lazy}>
-        <LazyLoad>
+        <LazyLoad once offset={0}>
           <div className={`${styles.fromLeft} ${styles.react}`}>
             <img src="/icons/react.svg" />
           </div>

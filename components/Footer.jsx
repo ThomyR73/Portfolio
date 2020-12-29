@@ -7,7 +7,7 @@ import LazyLoad from "react-lazyload";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <LazyLoad>
+      <LazyLoad once offset={100}>
         <div>
           <a href="https://www.linkedin.com/in/thomas-romano/" target="_blank">
             <img
