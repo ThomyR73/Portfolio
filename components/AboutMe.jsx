@@ -18,16 +18,20 @@ const AboutMe = () => {
           loading="lazy"
         />
         <p>
-          Hola! Me llamo Thomas, tengo 19 años y soy un joven desarrollador web
-          autodidacta y apasionado por la programación y el desarrollo de
-          software.
+          Hola! Me llamo Thomas, tengo 21 años soy un desarrollador front-end
+          autodidacta y con mucha predisposición a seguir aprendiendo y ayudar
+          a mis compañeros.
           <br />
           <br />
-          Comencé aprendiendo a programar en Python de forma autodidacta por
-          ocio, y así desperté mi enorme pasión por la programación, actualmente
-          programo aplicaciones web y móviles con Javascript y Typescript usando
-          los Frameworks React y React Native, y estudio Ciencias de la
-          Computación en la UBA.
+          Cuento con más de dos años de experiencia en desarrollo de sitios web
+          y aplicaciones tanto web como mobile usando React, Next.js, React Native, 
+          Redux, Expo, APIS (Rest y GraphQL) y programación funcional. 
+          <br />
+          <br />
+          Actualmente, me estoy formando en back-end con Node, Express, Apollo 
+          y MongoDB para alcanzar un perfil FullStack.
+          <br />
+          Además, estoy desarrollando mis soft skills para posiciones de liderazgo.
         </p>
       </div>
       <div className={styles.lazy}>
