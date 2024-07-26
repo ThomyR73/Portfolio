@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { ReactNode, useState } from "react";
 import styles from "../styles/projectPreview.module.scss";
 
 import LazyLoad from "react-lazyload";
@@ -9,6 +9,7 @@ export interface ProjectPreviewProps {
   thumbnail: string;
   type: "mobile" | "desktop";
   buttons: Array<{ name: string; link: string }>;
+  children: ReactNode
 }
 
 const ProjectPreview: React.FunctionComponent<ProjectPreviewProps> = ({
