@@ -6,7 +6,7 @@
   padding: 50px 10px;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(0.45turn, $white, #ccc);
+  // background: linear-gradient(0.45turn, $white, #ccc);
   min-height: 1048px;
   h3 {
     @extend %title;

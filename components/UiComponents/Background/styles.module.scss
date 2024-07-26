@@ -1,0 +1,96 @@
+.staticBackground{
+    display: block;
+    position: fixed;
+    width: 100dvw;
+    height: 100dvh;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #13272e 0%, #13272e 50%, #0e0e0e 100%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #13272e 0%, #13272e 50%, #0e0e0e 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pattern {
+    display: block;
+    position: absolute;
+    background-image: url("/assets/pattern.svg");
+    background-size: 20px;
+    min-width: 100vw;
+    max-width: 100vw;
+}
+
+.colorShadow{
+    position: fixed;
+    max-width: 100dvw;
+    animation: moveX 10s infinite ease-in-out;
+
+    &:after{
+        content: ' ';
+        display: block;
+        position: fixed;
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+        background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+        filter: blur(20px);
+        animation: moveY 6.6s infinite ease-in-out;
+    }
+}
+
+@keyframes moveX {
+    0%{
+        transform: translateX(calc(0dvw + 60px));
+    }
+    50%{
+        transform: translateX(calc(100dvw - 120px));
+    }
+    100%{
+        transform: translateX(calc(0dvw + 60px));
+    }
+}
+
+@keyframes moveY {
+    0%{
+        transform: translateY(calc(0dvh));
+    }
+    50%{
+        transform: translateY(calc(100dvh - 120px));
+    }
+    100%{
+        transform: translateY(calc(0dvh));
+    }
+}
+
+@media screen and (min-width: 735px) {
+    .colorShadow{
+        &:after{
+            width: 100px;
+            height: 100px;
+        }
+
+    }
+    .pattern{
+        background-size: initial;
+    }
+    @keyframes moveX {
+        0%{
+            transform: translateX(calc(0dvw + 20px));
+        }
+        50%{
+            transform: translateX(calc(100dvw - 260px));
+        }
+        100%{
+            transform: translateX(calc(0dvw + 20px));
+        }
+    }
+    
+    @keyframes moveY {
+        0%{
+            transform: translateY(calc(0dvh));
+        }
+        50%{
+            transform: translateY(calc(100dvh - 260px));
+        }
+        100%{
+            transform: translateY(calc(0dvh));
+        }
+    }
+}
