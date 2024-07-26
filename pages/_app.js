@@ -7,13 +7,7 @@ import MetaTags from "../components/MetaTags";
 import Menu from "../components/Menu";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { createStore, applyMiddleware } from "redux";
-import { Provider } from "react-redux";
-import ReduxThunk from "redux-thunk";
 
-import ProjectsReducer from "../store/reducer";
-
-const store = createStore(ProjectsReducer, applyMiddleware(ReduxThunk));
 
 function MyApp({ Component, pageProps }) {
   const [activeDrawer, setActiveDrawer] = useState({
@@ -33,9 +27,7 @@ function MyApp({ Component, pageProps }) {
         handleDrawerState={handleDrawerState}
       />
       <Menu activeDrawer={activeDrawer} handleDrawerState={handleDrawerState} />
-      <Provider store={store}>
         <Component {...pageProps} />
-      </Provider>
       <Footer />
     </>
   );

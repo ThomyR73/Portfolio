@@ -16,13 +16,23 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "incremental": true
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "pages/CRMGraphQL.jsx", "components/AboutMe.jsx", "components/Contact.jsx", "components/Footer.jsx", "components/TechStack.jsx", "components/Projects.jsx", "components/MetaTags.jsx", "components/Intro.jsx", "pages/index.jsx"  ],
+    "**/*.tsx",
+    "pages/CRMGraphQL.jsx",
+    "components/AboutMe.jsx",
+    "components/Contact.jsx",
+    "components/Footer.jsx",
+    "components/TechStack.jsx",
+    "components/Projects.jsx",
+    "components/MetaTags.jsx",
+    "components/Intro.jsx",
+    "pages/index.jsx"
+  ],
   "exclude": [
     "node_modules"
   ]
